@@ -1,0 +1,35 @@
+/* Apply CSS reset for all elements */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background properties for the body */
+body {
+    background: url('film-roll.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Styling for the .app container */
+.app {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(255, 255, 255, 0.212);
+    color: white;
+}
+
+/* Styling for the .app2 container */
+.app2 {
+    background-color: rgb(165, 162, 162);
+    box-shadow: 5px 10px 8px 10px #042404;
+    max-width: 90%;
+    height: 100vh;
+    margin: auto;
+    padding: 0 1rem; /* Corrected the padding property */
+
+    /* Add additional styling for .app2 here if needed */
+}
